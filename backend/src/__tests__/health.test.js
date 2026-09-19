@@ -8,7 +8,7 @@ describe("GET /api/health", () => {
         expect(response.statusCode).toBe(200);
         expect(response.body).toEqual({
             success: true,
-            message: "Sprint 10 backend is running",
+            message: "Sprint 11 backend is running",
         });
     });
 });
